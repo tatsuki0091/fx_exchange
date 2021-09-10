@@ -34,6 +34,13 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 npm install --save @types/material-ui
+npm i @testing-library/react
+npm i --save-dev @types/jest
+npm install mocha --save-dev
+npm i -D @testing-library/jest-dom@^4.2.4
+
 # fx_exchange
+
 # fx_exchange
+
 # fx_exchange

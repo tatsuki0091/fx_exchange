@@ -1,3 +1,3 @@
 export interface FX_INFO {
-    quotes:[]
+    quotes:any
 }

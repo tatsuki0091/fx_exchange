@@ -18,7 +18,6 @@ import FormHelperText from '@material-ui/core/FormHelperText';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
 import { FX_INFO } from './types';
-import { GetServerSideProps } from 'next';
 
 const url = process.env.REACT_APP_FX_API;
 export const getStaticProps = async () => {
@@ -78,6 +77,7 @@ const useStyles = makeStyles((theme: Theme) =>
 
 const Home = (fxInfo: FX_INFO) => {
   const classes = useStyles();
+
   const [currencyTypeFrom, setCurrencyTypeFrom] = React.useState('');
   const [currencyTypeTo, setCurrencyTypeTo] = React.useState('');
   const [rate, setRate] = React.useState(0);
